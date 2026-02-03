@@ -2,6 +2,9 @@ import './App.css'
 import Footer from './components/footer/footer'
 import Header from './components/header/header'
 import Hero from './components/hero/hero'
+import Shoes from './components/shoes/shoes'
+import Sports from './components/sports/sports'
+import Timeline from './components/timeline/timeline'
 
 function App() {
   return (
@@ -13,16 +16,13 @@ function App() {
         <Hero />
       </div>
       <div>
-        <Hero />
+        <Timeline /> 
       </div>
       <div>
-        <Hero />
+        <Sports />
       </div>
       <div>
-        <Hero />
-      </div>
-      <div>
-        <Hero />
+        <Shoes />
       </div>
       <div>
         <Footer />
