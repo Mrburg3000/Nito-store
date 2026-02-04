@@ -1,0 +1,36 @@
+.sport-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+
+.sports-column {
+    flex: 50%;
+    padding: 10px;
+    padding-bottom: 80px;
+
+}
+
+.sports-column img {
+    width: 33%;
+    vertical-align: middle;
+}
+
+.sports-column img:hover {
+    cursor: pointer;
+}
+
+.ornstein {
+    height: 450px;
+    margin-right: 5px;
+}
+
+.chosen {
+    height: 450px;
+    margin-right: 5px;
+}
+
+.solaire {
+    height: 450px;
+    margin-right: 0;
+}

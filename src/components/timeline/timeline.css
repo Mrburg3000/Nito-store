@@ -1,0 +1,22 @@
+.timeline-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    padding-bottom: 80px;
+}
+
+.column {
+    flex: 50%;
+
+}
+
+.column img {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.column img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
